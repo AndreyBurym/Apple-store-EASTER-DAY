@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/45/66/voMfj4.jpg);
+    background-size: cover;
+    max-width: 1200px;
+
+}
+
+.thanks {
+    color: #fff;
+    text-align: center;
+}
+
+.fa-shopify {
+    color: #fff;
+    position: relative;
+    left: 69%;
+    bottom: 25px;
+}

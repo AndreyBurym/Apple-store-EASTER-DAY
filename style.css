@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/45/66/voMfj4.jpg);
+    background-size: cover;
+    max-width: 1200px;
+}
+
+
+
+.fa-mobile-button:hover {
+    color: #000;
+    cursor: pointer;
+    max-width: 1200px;
+}
+
+.shop {
+    color: #fff;
+    max-width: 1200px;
+}
+
+.shop:hover {
+    animation: shop 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes shop {
+    0% {
+        color: red;
+    }
+
+    20% {
+        color: orange;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    60% {
+        color: green;
+    }
+
+    80% {
+        color: blue;
+    }
+
+    100% {
+        color: pink;
+    }
+
+}
+
+.image-iPhone {
+    max-width: 1200px;
+    animation: iPhone 1s linear forwards 2s;
+}
+
+.image-iPhone-1 {
+    position: relative;
+    left: 300px;
+    max-width: 1200px;
+    animation: iPhone-1 1s linear forwards 4s;
+}
+
+.buy {
+    max-width: 1200px;
+    position: relative;
+    border: 1px solid #000;
+    top: 60px;
+    right: 90px;
+    padding: 10px;
+    background-color: rgb(1, 223, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration-line: none;
+    color: #000;
+}
+
+.buy-1 {
+    max-width: 1200px;
+    position: relative;
+    border: 1px solid #000;
+    top: 60px;
+    left: 100%;
+    padding: 10px;
+    background-color: rgb(1, 223, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration-line: none;
+    color: #000;
+}
+
+.youtube {
+    position: relative;
+    top: 50px;
+}
+
+.main {}
+
+.main__body {
+    border: 1px solid #000;
+    position: relative;
+    top: 100px;
+    height: 100px;
+    width: 1200px;
+}
+
+.Premium {
+    color: cyan;
+}
+
+.text-main {
+    color: cyan;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    background-origin: 1px solid #000;
+    padding: 10px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    position: relative;
+    left: 550px;
+    cursor: pointer;
+    color: #000;
+    top: 15px;
+}
+
+.EASTER {
+    position: relative;
+    bottom: 35px;
+    left: 780px;
+    color: #fff;
+    animation: shop 2s linear infinite;
+}
